@@ -1,0 +1,46 @@
+Comandos
+
+git reset ####: esto vuelve a un commit en especifico
+Cuando se puede hacer --cached y --hard
+El hard fuerza la accion mientras que el otro es menos agresivo.
+
+El staging se trabaja en la memoria ram del pc
+
+git log para ver el historial.
+
+Diferencias entre el 'git rm' y 'git reset'
+
+git rm: Nos ayuda a eliminar archivos de git sineliminar su historial
+en el sistema de versiones. Si se desea encontrar algo en una versión anterior
+lo podemos hacer ya que no lo borra de forma definitiva.
+
+Se requiere usar banderas o párametros 
+--cached: Elimina los archivos de nuestro repositorios y del staging
+pero los mantiene en el disco duro. Los archivos de staging pasan 
+al estado de untracket
+
+--force: elimina los  archivos de git y en el disco duro,
+Git siempre guarda todo, por lo que se puede recuperar pero
+con comandos más avanzados.
+
+
+
+git reset: Este comando nos ayuda a egresar en el pasado. Una rama
+en específico. Borra la historia y se sobrescribe.
+
+Igualmente que el rm s tienen dos banderas o párametos --soft y 
+--force
+
+--force : Borra todo del staging y perdiendo todo  para siempre.
+
+--soft: es algo más seguro , borrar todo el historial y registros
+de git pero guardamos los cambios que tengamos en staging, así se pueden
+aplicar las ultimas actualizaciones al último commit.
+
+Existe un comando adicional:
+git reset HEAD: Para sacar los archivos del área de staging.
+
+
+
+
+
