@@ -8,3 +8,12 @@ body{
 table{
     background-color: coral;
 }
+
+.container{
+    padding: 20%;
+    background-color: azure;
+}
+
+table{
+    text-align: center;
+}
