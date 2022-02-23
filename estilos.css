@@ -3,10 +3,17 @@ h1 {
     text-align: center;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(127, 150, 255);
+}
+table{
+    background-color: coral;
 }
 
-footer{
-    background-color: rgb(247, 112, 112);
+.container{
+    padding: 20%;
+    background-color: azure;
+}
+
+table{
     text-align: center;
 }
